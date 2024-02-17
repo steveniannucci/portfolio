@@ -10,11 +10,6 @@ body {
     line-height: 1.6;
 }
 
-img {
-    height: 100px;
-    width: 100px;
-}
-
 header {
     background: #333;
     color: #fff;
@@ -33,7 +28,7 @@ header {
 }
 
 .logo img {
-    width: 40px; /* Adjust as needed */
+    width: 80px; /* Adjust as needed */
     height: auto;
     margin-right: 10px;
 }
