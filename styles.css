@@ -16,7 +16,7 @@ img {
 }
 
 heading {
-    text-align: center;
+    text-align: left;
 }
 
 navbar {
@@ -29,8 +29,21 @@ header {
     padding: 1rem;
 }
 
-header h1 {
-    margin: 0;
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px; /* Adjust as needed */
+    height: auto;
+    margin-right: 10px;
 }
 
 nav ul {
