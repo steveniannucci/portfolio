@@ -38,6 +38,10 @@ header {
     margin-right: 10px;
 }
 
+.logo h1 {
+    margin: 10px;
+}
+
 nav ul {
     list-style-type: none;
 }
