@@ -10,6 +10,19 @@ body {
     line-height: 1.6;
 }
 
+img {
+    height: 100px;
+    width: 100px;
+}
+
+heading {
+    text-align: center;
+}
+
+navbar {
+    text-align: center;
+}
+
 header {
     background: #333;
     color: #fff;
