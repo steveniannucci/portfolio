@@ -66,8 +66,9 @@ nav ul li a:hover {
     background: #f4f4f4;
 }
 
-article {
+article h2 {
     text-align: center;
+    padding: 50px;
 }
 
 footer {
