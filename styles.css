@@ -72,6 +72,10 @@ article h2 {
     padding: 50px;
 }
 
+article p {
+    text-align: center;
+}
+
 footer {
     background: #333;
     color: #fff;
