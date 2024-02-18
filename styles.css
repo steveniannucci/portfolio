@@ -66,6 +66,10 @@ nav ul li a:hover {
     background: #f4f4f4;
 }
 
+article {
+    text-align: center;
+}
+
 footer {
     background: #333;
     color: #fff;
