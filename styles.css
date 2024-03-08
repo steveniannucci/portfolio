@@ -102,6 +102,10 @@ article p {
     height: 100px;
 }
 
+.projectsTable {
+    text-align: center;
+}
+
 table {
     border: 1px solid;
     margin-left: auto;
