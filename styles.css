@@ -102,6 +102,10 @@ article p {
     height: 100px;
 }
 
+table {
+    border: 1px solid;
+}
+
 footer {
     background: #333;
     color: #fff;
