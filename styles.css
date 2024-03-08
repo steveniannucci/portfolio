@@ -107,7 +107,11 @@ article p {
 }
 
 .android {
-    background-color: orange;
+    background-color: yellow;
+}
+
+.projectName {
+    font-weight: bold;
 }
 
 table {
