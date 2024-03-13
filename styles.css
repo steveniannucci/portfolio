@@ -9,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: black;
+    color: white;
 }
 
 .page-container {
@@ -86,6 +87,7 @@ nav ul li a:hover {
     padding: 2rem;
     text-align: center;
     background: #f4f4f4;
+    color: black;
 }
 
 article h2 {
