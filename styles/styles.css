@@ -103,6 +103,12 @@ article p {
 .promo {
     width: 100px;
     height: 100px;
+    background-color: white;
+}
+
+.promoImg {
+    width: 100px;
+    height: 100px;
 }
 
 .projectsTable {
