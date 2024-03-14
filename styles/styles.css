@@ -180,6 +180,11 @@ mark {
     border-radius: 5px;
 }
 
+.contactForm {
+    background-color: white;
+    color: black;
+}
+
 
 
 /* Media Queries */
