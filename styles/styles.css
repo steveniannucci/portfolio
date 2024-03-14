@@ -117,6 +117,12 @@ article p {
     height: 200px;
 }
 
+.promoFull {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
 .projectsTable {
     text-align: center;
 }
