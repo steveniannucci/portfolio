@@ -169,4 +169,9 @@ footer {
     width: 100%;
 }
 
+.contactLink {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /* Media Queries */
