@@ -49,10 +49,6 @@ header {
     font-size: 30px;
 }
 
-.articlegradient {
-    background: linear-gradient(135deg, red, blue);
-}
-
 .logo {
     display: flex;
     align-items: center;
