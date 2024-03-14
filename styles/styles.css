@@ -174,4 +174,12 @@ footer {
     font-weight: bold;
 }
 
+mark {
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+
+
 /* Media Queries */
