@@ -191,6 +191,11 @@ mark {
     font-size: 20px;
 }
 
+#submit {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
 
 
 /* Media Queries */
