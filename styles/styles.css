@@ -196,8 +196,12 @@ mark {
     margin-top: 10px;
 }
 
+li::before {
+    content:"• "; color: white;
+}
+
 li {
-    color: white;
+    margin-top: 15px;
 }
 
 /* Media Queries */
