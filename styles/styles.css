@@ -196,7 +196,7 @@ mark {
     margin-top: 10px;
 }
 
-li::before {
+.funFacts li::before {
     content:"• "; color: white;
 }
 
