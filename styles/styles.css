@@ -117,9 +117,12 @@ article p {
     height: 200px;
 }
 
-.promoFull {
+.promoFullImg {
     width: 200px;
     height: 200px;
+}
+
+.promoFull {
     text-align: center;
 }
 
