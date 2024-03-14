@@ -196,4 +196,8 @@ mark {
     margin-top: 10px;
 }
 
+li {
+    color: white;
+}
+
 /* Media Queries */
