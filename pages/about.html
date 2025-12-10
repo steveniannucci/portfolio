@@ -10,27 +10,27 @@
     <link rel="icon" href="/images/logo.svg">
 </head>
 <body>
-    <header>
+    <header role="banner">
         <div class="header-content">
             <div class="logo">
-                <a href="/index.html">
+                <a href="/index.html" aria-label="Return to home page">
                     <img src="/images/logo.svg" alt="site logo">
                 </a>
-                <h1 class="heading">Steven Iannucci</h1>
+                <p class="logo-text">Steven Iannucci</p>
             </div>
-            <nav>
-                <ul>
+            <nav role="navigation" aria-label="Main navigation">
+                <ul role="list">
                     <li><a href="/index.html">Home</a></li>
-                    <li><a href="/pages/about.html">About</a></li>
+                    <li><a href="/pages/about.html" aria-current="page">About</a></li>
                     <li><a href="/pages/projects.html">Projects</a></li>
-                    <li><a href="/docs/Steven Iannucci Resume.pdf" target="_blank">Resume</a></li>
+                    <li><a href="/docs/Steven Iannucci Resume.pdf" target="_blank" aria-label="Download resume (opens in new tab)">Resume</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
-        <section>
-            <h1>About Me</h1><br>
+    <main role="main">
+        <section role="region" aria-labelledby="about-heading">
+            <h1 id="about-heading">About Me</h1><br>
             <div class="about-content">
                 <img class="image-of-me" src="/images/me.jpg" alt="a picture of me, Steven Iannucci"><br><br>
                 <div class="about-text">
@@ -48,8 +48,8 @@
                 </div>
             </div>
         </section>
-        <section class="funFacts">
-            <h2>Fun Facts</h2>
+        <section class="funFacts" role="region" aria-labelledby="funfacts-heading">
+            <h2 id="funfacts-heading">Fun Facts</h2>
             <ul>
                 <li>Favorite color: Purple</li>
                 <li>Favorite holiday: Thanksgiving</li>
@@ -58,7 +58,7 @@
             </ul>
         </section>
     </main>
-    <footer>
+    <footer role="contentinfo">
         <p>&copy; 2025 All rights reserved. Made by Steven Albert Iannucci</p>
         <div class="social-links">
             <a href="https://github.com/steveniannucci" aria-label="Visit Steven Iannucci's profile on GitHub" target="_blank">

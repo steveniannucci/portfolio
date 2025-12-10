@@ -29,6 +29,32 @@ section {
     margin-top: 20px;
 }
 
+progress {
+    border-radius: 25px;
+    background-color: white;
+    overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 25px;
+    background-color: white;
+    overflow: hidden;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(0, 184, 0);
+}
+
+progress::-moz-progress-bar {
+    border-radius: 25px;
+    background-color: white;
+    overflow: hidden;
+}
+
+progress[value]::-moz-progress-bar {
+    background-color: rgb(0, 184, 0);
+}
+
 .page-container {
     position: relative;
 }
@@ -76,6 +102,12 @@ header {
     width: 80px; /* Adjust as needed */
     height: auto;
     margin-right: 10px;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.logo img:hover {
+    transform: translateY(-5px);
+    opacity: 0.8;
 }
 
 .logo h1 {
@@ -228,8 +260,10 @@ footer {
 }
 
 .contact-me-button button {
+    display: inline-block;
     padding: 15px 30px;
     font-size: 24px;
+    font-weight: bold;
     cursor: pointer;
     background-color: white;
     border: 2px solid white;
@@ -272,18 +306,20 @@ mark {
     text-align: left;
 }
 
-.contactForm input[type="text"],
+.contactForm input[type="text"], 
+.contactForm input[type="email"],
 .contactForm textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 5px;
     font-size: 16px;
     font-family: Arial, sans-serif;
 }
 
 .contactForm input[type="text"]:focus,
+.contactForm input[type="email"]:focus,
 .contactForm textarea:focus {
     outline: none;
     border-color: black;
@@ -296,7 +332,8 @@ mark {
 }
 
 #submit {
-    width: 100%;
+    display: block;
+    width: 50%;
     padding: 12px;
     font-size: 18px;
     background-color: black;
@@ -305,11 +342,12 @@ mark {
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    transition: background-color 0.3s;
+    transition: transform 0.2s;
+    margin: 0 auto;
 }
 
 #submit:hover {
-    background-color: black;
+    transform: scale(1.05);
 }
 
 .funFacts {

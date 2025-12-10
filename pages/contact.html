@@ -10,39 +10,39 @@
     <link rel="icon" href="/images/logo.svg">
 </head>
 <body>
-    <header>
+    <header role="banner">
         <div class="header-content">
             <div class="logo">
-                <a href="/index.html">
+                <a href="/index.html" aria-label="Return to home page">
                     <img src="/images/logo.svg" alt="site logo">
                 </a>
-                <h1 class="heading">Steven Iannucci</h1>
+                <p class="logo-text">Steven Iannucci</p>
             </div>
-            <nav>
-                <ul>
+            <nav role="navigation" aria-label="Main navigation">
+                <ul role="list">
                     <li><a href="/index.html">Home</a></li>
                     <li><a href="/pages/about.html">About</a></li>
                     <li><a href="/pages/projects.html">Projects</a></li>
-                    <li><a href="/docs/Steven Iannucci Resume.pdf" target="_blank">Resume</a></li>
+                    <li><a href="/docs/Steven Iannucci Resume.pdf" target="_blank" aria-label="Download resume (opens in new tab)">Resume</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
-        <section>
-            <h1>Contact Me</h1><br>
-            <form class="contactForm" action="mailto:stevenaiannucci@gmail.com">
+    <main role="main">
+        <section role="region" aria-labelledby="contact-heading">
+            <h1 id="contact-heading">Contact Me</h1><br>
+            <form class="contactForm" method="POST" action="https://formspree.io/f/xwpgrvgy">
                 <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
+                <input type="text" id="name" name="name" required><br>
                 <label for="email">Email:</label><br>
-                <input type="text" id="email" name="email"><br>
+                <input type="email" id="email" name="email" required><br>
                 <label for="message">Message:</label><br>
-                <textarea id="message" name="message"></textarea><br>
+                <textarea id="message" name="message" required></textarea><br>
                 <input id="submit" type="submit" value="Send">
             </form>
         </section>
     </main>
-    <footer>
+    <footer role="contentinfo">
         <p>&copy; 2025 All rights reserved. Made by Steven Albert Iannucci</p>
         <div class="social-links">
             <a href="https://github.com/steveniannucci" aria-label="Visit Steven Iannucci's profile on GitHub" target="_blank">
