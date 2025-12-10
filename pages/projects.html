@@ -7,40 +7,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steven Iannucci's Portfolio</title>
     <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="icon" href="/images/logo.svg">
 </head>
 <body>
     <header role="banner">
         <div class="header-content">
             <div class="logo">
-                <a href="index.html" aria-label="Return to home page">
+                <a href="/index.html" aria-label="Return to home page">
                     <img src="/images/logo.svg" alt="site logo">
                 </a>
-                <p class="logo-text">Steven Iannucci</p>
+                <h1 class="heading">Steven Iannucci</h1>
             </div>
             <nav role="navigation" aria-label="Main navigation">
                 <ul role="list">
-                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="/index.html">Home</a></li>
                     <li><a href="/pages/about.html">About</a></li>
-                    <li><a href="/pages/projects.html">Projects</a></li>
+                    <li><a href="/pages/projects.html" aria-current="page">Projects</a></li>
                     <li><a href="/docs/Steven Iannucci Resume.pdf" target="_blank" aria-label="Download resume (opens in new tab)">Resume</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main role="main">
-        <section class="hero" role="region" aria-labelledby="hero-heading">
-            <h1 id="hero-heading">Welcome to My Portfolio</h1>
-            <p>Here you can find and view my latest works and projects.</p>
+        <section role="region" aria-labelledby="projects-heading">
+            <h1 id="projects-heading">Projects</h1>
+            <p align="center">There will be projects added here soon.</p>
         </section>
-        <section class="contact-cta" role="region" aria-label="About me">
-            <p>I am currently seeking a full-time job in Web Development.</p>
-        </section>
-        <section class="contact-me-button" role="region" aria-label="Contact information">
-            <button>
-                <a href="/pages/contact.html" aria-label="Navigate to contact page"><mark>Contact Me</mark></a>
-            </button>
+        <br>
+        <section class="projectsTable" role="region" aria-labelledby="projects-table-caption">
+            <table role="table">
+                <caption id="projects-table-caption"><b>Current Projects</b></caption>
+                <thead>
+                <tr role="row">
+                    <th role="columnheader" scope="col">Project</th>
+                    <th role="columnheader" scope="col">Platforms</th>
+                    <th role="columnheader" scope="col">Completion Status</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr role="row">
+                    <td role="cell" class="projectName">Project 1 | TBD</td>
+                    <td role="cell">Web</td>
+                    <td role="cell">0%<progress min="0" max="100" value="1" aria-label="Project 1 progress: 1%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">1%</progress></td>
+                </tr>
+                <tr role="row">
+                    <td role="cell" class="projectName">Project 2 | TBD</td>
+                    <td role="cell">Web</td>
+                    <td role="cell">0%<progress min="0" max="100" value="1" aria-label="Project 2 progress: 1%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">1%</progress></td>
+                </tr>
+                <tr role="row">
+                    <td role="cell" class="projectName">Project 3 | TBD</td>
+                    <td role="cell">Web</td>
+                    <td role="cell">0%<progress min="0" max="100" value="1" aria-label="Project 3 progress: 1%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">1%</progress></td>
+                </tr>
+                </tbody>
+            </table>
         </section>
     </main>
     <footer role="contentinfo">

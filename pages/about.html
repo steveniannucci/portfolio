@@ -7,43 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steven Iannucci's Portfolio</title>
     <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="icon" href="/images/logo.svg">
 </head>
 <body>
-    <header role="banner">
+    <header>
         <div class="header-content">
             <div class="logo">
-                <a href="index.html" aria-label="Return to home page">
+                <a href="/index.html">
                     <img src="/images/logo.svg" alt="site logo">
                 </a>
-                <p class="logo-text">Steven Iannucci</p>
+                <h1 class="heading">Steven Iannucci</h1>
             </div>
-            <nav role="navigation" aria-label="Main navigation">
-                <ul role="list">
-                    <li><a href="index.html" aria-current="page">Home</a></li>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
                     <li><a href="/pages/about.html">About</a></li>
                     <li><a href="/pages/projects.html">Projects</a></li>
-                    <li><a href="/docs/Steven Iannucci Resume.pdf" target="_blank" aria-label="Download resume (opens in new tab)">Resume</a></li>
+                    <li><a href="/docs/Steven Iannucci Resume.pdf" target="_blank">Resume</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main role="main">
-        <section class="hero" role="region" aria-labelledby="hero-heading">
-            <h1 id="hero-heading">Welcome to My Portfolio</h1>
-            <p>Here you can find and view my latest works and projects.</p>
+    <main>
+        <section>
+            <h1>About Me</h1><br>
+            <div class="about-content">
+                <img class="image-of-me" src="/images/me.jpg" alt="a picture of me, Steven Iannucci"><br><br>
+                <div class="about-text">
+                    <p>I've enrolled at the University of Central Florida to pursue a
+                        bachelor's degree in Information Technology but ended up
+                        switching to Digital Media at the College of Sciences. I've
+                        participated in a number of courses to workshop my skills
+                        including Front-End Web Development, Client-Side Scripting, 
+                        Server-Side Scripting, Mobile Development, Rapid App Web Development,
+                        and Web Design Workshop I and II.
+                    <p>I'm currently in the process of further developing my knowledge
+                        in web technologies and frameworks by taking the "Microsoft
+                        Front-End Developer Professional Certificate" and the "University
+                        of Michigan's Web Applications for Everybody" courses on Coursera.</p>
+                </div>
+            </div>
         </section>
-        <section class="contact-cta" role="region" aria-label="About me">
-            <p>I am currently seeking a full-time job in Web Development.</p>
-        </section>
-        <section class="contact-me-button" role="region" aria-label="Contact information">
-            <button>
-                <a href="/pages/contact.html" aria-label="Navigate to contact page"><mark>Contact Me</mark></a>
-            </button>
+        <section class="funFacts">
+            <h2>Fun Facts</h2>
+            <ul>
+                <li>Favorite color: Purple</li>
+                <li>Favorite holiday: Thanksgiving</li>
+                <li>Favorite band: Three Days Grace</li>
+                <li>Favorite video-game: "Super Mario Galaxy" (2007)</li>
+            </ul>
         </section>
     </main>
-    <footer role="contentinfo">
+    <footer>
         <p>&copy; 2025 All rights reserved. Made by Steven Albert Iannucci</p>
         <div class="social-links">
             <a href="https://github.com/steveniannucci" aria-label="Visit Steven Iannucci's profile on GitHub" target="_blank">
