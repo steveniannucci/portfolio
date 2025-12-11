@@ -350,7 +350,7 @@ mark {
     transform: scale(1.05);
 }
 
-.funFacts {
+/*.funFacts {
     list-style-type: disc;
     list-style-position: outside;
     padding-left: 20px;
@@ -361,7 +361,7 @@ mark {
 
 .funFacts li {
     margin-top: 15px;
-}
+}*/
 
 li {
     margin-top: 15px;
@@ -447,9 +447,9 @@ li {
         text-align: left;
     }
 
-    .funFacts {
+    /*.funFacts {
         max-width: 100%;
-    }
+    }*/
 
     table {
         font-size: 14px;
@@ -513,13 +513,13 @@ li {
         width: 150px;
     }
 
-    .funFacts {
+    /*.funFacts {
         padding-left: 15px;
     }
 
     .funFacts li {
         margin-top: 10px;
-    }
+    }*/
 
     table {
         font-size: 12px;
