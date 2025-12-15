@@ -99,7 +99,7 @@ header {
 }
 
 .logo img {
-    width: 80px; /* Adjust as needed */
+    width: 80px;
     height: auto;
     margin-right: 10px;
     transition: transform 0.2s, opacity 0.2s;
@@ -350,19 +350,6 @@ mark {
     transform: scale(1.05);
 }
 
-/*.funFacts {
-    list-style-type: disc;
-    list-style-position: outside;
-    padding-left: 20px;
-    text-align: left;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.funFacts li {
-    margin-top: 15px;
-}*/
-
 li {
     margin-top: 15px;
 }
@@ -513,14 +500,6 @@ li {
     .image-of-me {
         width: 150px;
     }
-
-    /*.funFacts {
-        padding-left: 15px;
-    }
-
-    .funFacts li {
-        margin-top: 10px;
-    }*/
 
     table {
         font-size: 12px;
