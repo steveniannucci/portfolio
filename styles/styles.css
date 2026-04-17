@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -45,5 +46,10 @@ nav li:hover {
     width: 200px;
     margin: 20px;
     float: left;
+}
+
+#about-section-text {
+    padding: 1px 0;
+    font-size: 16px;
 }
 
