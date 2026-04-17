@@ -44,5 +44,6 @@ nav li:hover {
     border-radius: 4px;
     width: 200px;
     margin: 20px;
+    float: left;
 }
 
