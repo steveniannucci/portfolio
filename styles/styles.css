@@ -158,4 +158,12 @@ footer {
         flex-direction: column-reverse;
         gap: 0;
     }
+
+    nav li {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
 }
