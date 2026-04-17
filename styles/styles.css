@@ -115,6 +115,10 @@ nav a:hover {
     margin: 20px auto;
 }
 
+.project:hover {
+    background: lightgray;
+}
+
 .project p {
     margin: 10px auto;
     width: 200px;
