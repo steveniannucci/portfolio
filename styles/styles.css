@@ -10,9 +10,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background: gray;
+    background: darkslategray;
     color: white;
-    margin: 0 0 10px 0;
 }
 
 #logo {
