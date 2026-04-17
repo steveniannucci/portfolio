@@ -156,6 +156,6 @@ footer {
 @media (max-width: 768px) {
     #about-section-flex {
         flex-direction: column-reverse;
-        gap: 0px;
+        gap: 0;
     }
 }
