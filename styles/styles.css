@@ -176,4 +176,8 @@ footer {
     footer p {
         font-size: 12px;
     }
+
+    #title {
+        width: 50px;
+    }
 } 
