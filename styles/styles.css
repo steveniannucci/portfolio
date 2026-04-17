@@ -39,3 +39,10 @@ nav li:hover {
     width: 100px;
 }
 
+#my-picture {
+    border: 4px solid black;
+    border-radius: 4px;
+    width: 200px;
+    margin: 20px;
+}
+
