@@ -92,6 +92,11 @@ nav a:hover {
     border-bottom: 4px solid black;
 }
 
+#projects-section a {
+    text-decoration: none;
+    color: black;
+}
+
 .project-thumbnail {
     display: block;
     margin: 10px auto;
