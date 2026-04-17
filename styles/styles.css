@@ -62,5 +62,6 @@ nav li:hover {
     margin: 0 auto;
     width: 200px;
     border-radius: 4px;
+    cursor: pointer
 }
 
