@@ -65,3 +65,14 @@ nav li:hover {
     cursor: pointer
 }
 
+#contact-section {
+    text-align: center;
+}
+
+footer {
+    background: rgb(41, 44, 44);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
