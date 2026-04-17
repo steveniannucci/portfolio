@@ -31,7 +31,12 @@ nav li {
     font-size: 20px;
 }
 
-nav li:hover {
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
     color: rgb(255, 2, 192);
 }
 
