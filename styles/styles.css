@@ -61,5 +61,6 @@ nav li:hover {
     display: block;
     margin: 0 auto;
     width: 200px;
+    border-radius: 4px;
 }
 
