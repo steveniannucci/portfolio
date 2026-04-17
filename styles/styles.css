@@ -53,3 +53,13 @@ nav li:hover {
     font-size: 16px;
 }
 
+#projects-section {
+    text-align: center;
+}
+
+.project-thumbnail {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+
