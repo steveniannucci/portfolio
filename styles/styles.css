@@ -5,3 +5,14 @@ body {
     box-sizing: border-box;
 }
 
+#logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#logo {
+    width: 100px;
+}
+
