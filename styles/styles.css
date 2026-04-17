@@ -46,7 +46,6 @@ nav a:hover {
     justify-content: center;
     gap: 20px;
     border-bottom: 4px solid black;
-    border-radius: 0 0 8px 8px;
 }
 
 #logo {
