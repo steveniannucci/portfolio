@@ -109,6 +109,15 @@ nav li:hover {
     width: 50%;
 }
 
+#contact-form input {
+    margin: 10px 0;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
 footer {
     background: rgb(41, 44, 44);
     color: white;
