@@ -78,10 +78,18 @@ nav li:hover {
 
 .project-thumbnail {
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
     width: 200px;
     border-radius: 4px;
     cursor: pointer
+}
+
+.project {
+    display: block;
+    border: 4px solid black;
+    border-radius: 4px;
+    width: 220px;
+    margin: 0 auto;
 }
 
 .project p {
