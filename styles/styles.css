@@ -63,6 +63,10 @@ nav a:hover {
     padding: 40px 0;
 }
 
+#about-section {
+    border-bottom: 4px solid black;
+}
+
 #about-section-flex {
     display: flex;
     justify-content: center;
