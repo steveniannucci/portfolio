@@ -40,6 +40,10 @@ nav a:hover {
     color: rgb(255, 2, 192);
 }
 
+label {
+    display: block;
+}
+
 #logo-section {
     display: flex;
     align-items: center;
