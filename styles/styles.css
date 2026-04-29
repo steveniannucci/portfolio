@@ -42,6 +42,7 @@ nav a:hover {
 
 label {
     display: block;
+    margin: 10px 0;
 }
 
 #logo-section {
@@ -150,10 +151,6 @@ label {
     width: 50%;
 }
 
-#contact-form input {
-    margin: 10px 0;
-}
-
 #contact-form button {
     margin: 20px 0 0 0;
     padding: 10px 20px;
@@ -174,6 +171,7 @@ footer {
 
 input[type="text"], input[type="email"] {
     padding: 10px;
+    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
