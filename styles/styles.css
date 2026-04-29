@@ -171,7 +171,8 @@ footer {
 
 input[type="text"], input[type="email"] {
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 4px;
+    width: 200px;
 }
 
 @media (max-width: 768px) {
