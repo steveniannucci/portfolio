@@ -172,6 +172,10 @@ footer {
     padding: 20px;
 }
 
+input[type="text"], input[type="email"] {
+    padding: 10px;
+}
+
 @media (max-width: 768px) {
     #about-section-flex {
         flex-direction: column-reverse;
