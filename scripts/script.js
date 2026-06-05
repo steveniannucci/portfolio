@@ -1,14 +1,5 @@
 // scripts/script.js
 
-// Looks for the element with the class 'hamburger'.
-const hamburger = document.querySelector('.hamburger');
-// Looks for the <nav> element.
-const nav = document.querySelector('nav');
+const currentYear = new Date().getFullYear()
 
-// Adds a click event listener to the hamburger button.
-hamburger.addEventListener('click', function() {
-    nav.classList.toggle('active');
-    const isExpanded = nav.classList.contains('active');
-    hamburger.setAttribute('aria-expanded', isExpanded);
-    hamburger.classList.toggle('active');
-});
+document.querySelector("#footer").textContent += `&copy; ${currentYear} All rights reserved. Made by Steven Albert Iannucci`
