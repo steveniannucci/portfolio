@@ -2,4 +2,4 @@
 
 const currentYear = new Date().getFullYear()
 
-`&copy; ${currentYear} All rights reserved. Made by Steven Albert Iannucci`
+console.log(`&copy; ${currentYear} All rights reserved. Made by Steven Albert Iannucci`)
