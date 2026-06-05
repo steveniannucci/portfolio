@@ -45,6 +45,11 @@ label {
     margin: 10px 0;
 }
 
+textarea {
+    width: 100%;
+    resize: none;
+}
+
 #logo-section {
     display: flex;
     align-items: center;
