@@ -194,17 +194,17 @@ input[type="text"], input[type="email"] {
     }
 
     footer p {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 }
 
 @media (max-width: 480px) {
     nav li {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     footer p {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     #title {
