@@ -2,4 +2,6 @@
 
 const currentYear = new Date().getFullYear()
 
-document.querySelector("#footer").textContent += `&copy; ${currentYear} All rights reserved. Made by Steven Albert Iannucci`
+console.log(currentYear)
+
+// document.querySelector("#footer").textContent += `&copy; ${currentYear} All rights reserved. Made by Steven Albert Iannucci`
