@@ -4,4 +4,6 @@ function getCopyrightInfo() {
     return `&copy; ${new Date().getFullYear()} All rights reserved. Made by Steven Albert Iannucci`
 }
 
-console.log(getCopyrightInfo())
+function render() {
+    document.querySelector("#footer").innerHTML += `<p>${getCopyrightInfo()}</p>`
+}
