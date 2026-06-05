@@ -1,5 +1,3 @@
 // scripts/script.js
 
-const currentYear = new Date().getFullYear()
-
-console.log(`&copy; ${currentYear} All rights reserved. Made by Steven Albert Iannucci`)
+console.log(`&copy; ${new Date().getFullYear()} All rights reserved. Made by Steven Albert Iannucci`)
