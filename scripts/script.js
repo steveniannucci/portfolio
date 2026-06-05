@@ -7,3 +7,5 @@ function getCopyrightInfo() {
 function render() {
     document.querySelector("#footer").innerHTML += `<p>${getCopyrightInfo()}</p>`
 }
+
+render()
