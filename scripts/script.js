@@ -9,3 +9,7 @@
 // }
 
 // render()
+
+const copyright = document.createElement("p")
+copyright.textContent = `&copy; ${new Date().getFullYear()} All rights reserved. Made by Steven Albert Iannucci`;
+copyright.appendChild(document.querySelector("footer"))
