@@ -9,6 +9,5 @@
 // }
 
 // render()
-const copyright = document.createElement("p")
+const copyright = document.querySelector("#copyright")
 copyright.textContent = `&copy; ${new Date().getFullYear()} All rights reserved. Made by Steven Albert Iannucci`;
-copyright.appendChild(document.querySelector("#footer"))
