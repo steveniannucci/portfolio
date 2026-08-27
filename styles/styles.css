@@ -14,6 +14,12 @@ body {
     border-bottom: 4px solid black;
 }
 
+#title-div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 #title {
     font-size: 2rem;
 }
