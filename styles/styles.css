@@ -43,7 +43,6 @@ h2 {
 
 header {
     background: rgb(41, 44, 44);
-    color: white;
 }
 
 nav {
@@ -57,8 +56,12 @@ nav li {
     list-style-type: none;
 }
 
+header,
 nav a {
     color: white;
+}
+
+nav a {
     text-decoration: none;
 }
 
