@@ -206,6 +206,13 @@ input[type="text"], input[type="email"] {
     width: 100%;
 }
 
+#about-section,
+#projects-section,
+#contact-section {
+    width: 95%;
+    margin: 0 auto;
+}
+
 @media (max-width: 768px) {
     #about-section-flex {
         flex-direction: column-reverse;
