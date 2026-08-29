@@ -45,7 +45,7 @@ header {
     background: #292c2c;
 }
 
-nav {
+#main-nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -170,9 +170,17 @@ textarea {
 }
 
 #projects-section-nav {
+    display: flex;
+    justify-content: space-around;
     background: black;
     color: white;
     margin: 0 0 1em 0;
+}
+
+#projects-section-nav li {
+    border-top: 3px solid #FF94E4;
+    border-bottom: 3px solid #FF94E4;
+    padding: 1em;
 }
 
 #projects-section-nav li:hover {
