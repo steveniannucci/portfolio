@@ -143,10 +143,8 @@ textarea {
 
 .project-thumbnail {
     display: block;
-    margin: 10px auto;
     width: 200px;
     border-radius: 4px;
-    cursor: pointer
 }
 
 .project {
