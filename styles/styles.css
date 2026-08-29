@@ -181,7 +181,8 @@ textarea {
 }
 
 #projects-section-nav li {
-    border: 2px solid #FF94E4;
+    border-top: 2px solid #FF94E4;
+    border-bottom: 2px solid #FF94E4;
 }
 
 /* .project {
