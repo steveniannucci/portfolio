@@ -172,17 +172,10 @@ textarea {
 #projects-section-nav {
     display: flex;
     justify-content: space-around;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    color: black;
-    margin: 0 0 1em 0;
-}
-
-#projects-section-nav li {
-    background: #f8e4f3;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
     padding: 1em;
+    background: black;
+    color: white;
+    margin: 0 0 1em 0;
 }
 
 #projects-section-nav li:hover {
