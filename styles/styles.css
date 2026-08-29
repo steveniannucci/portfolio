@@ -169,7 +169,7 @@ textarea {
     background: #2E2E2E;
 }
 
-/* #projects-section-nav {
+#projects-section-nav {
     background: black;
     color: white;
     margin: 0 0 1em 0;
@@ -178,7 +178,7 @@ textarea {
 #projects-section-nav li:hover {
     cursor: pointer;
     color: #FF94E4;
-} */
+}
 
 /* .project {
     display: block;
