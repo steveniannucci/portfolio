@@ -163,7 +163,7 @@ textarea {
 }
 
 .project button:hover {
-    background-color: darkgray;
+    background: #2E2E2E;
 }
 
 /* .project {
