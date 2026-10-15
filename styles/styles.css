@@ -250,6 +250,10 @@ input[type="text"], input[type="email"] {
     width: 100%;
 }
 
+.project-container {
+    margin: 2em;
+}
+
 @media (max-width: 768px) {
     #about-section-flex {
         flex-direction: column-reverse;
