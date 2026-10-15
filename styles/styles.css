@@ -246,6 +246,10 @@ input[type="text"], input[type="email"] {
     margin: 0 auto;
 }
 
+.preview-img {
+    width: 100%;
+}
+
 @media (max-width: 768px) {
     #about-section-flex {
         flex-direction: column-reverse;
